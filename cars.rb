@@ -1,6 +1,6 @@
 class Cars
   attr_accessor  :stereo, :cam               #attribute accessor
-
+  @@cars_count
   def initialize(model, make, year)
     @model = model
     @make = make
