@@ -10,6 +10,7 @@ class Cars
   def stereo=(car_stereo)
     @stereo = car_stereo
   end
+
   def stereo
     @stereo
   end
@@ -17,6 +18,7 @@ class Cars
   def cam=(backup_cam)
     @cam = backup_cam
   end
+  
   def cam
     @cam
   end
