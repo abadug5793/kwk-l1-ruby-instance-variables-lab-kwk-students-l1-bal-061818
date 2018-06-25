@@ -5,6 +5,7 @@ class Cars
     @model = model
     @make = make
     @year = year
+    @@cars_count +=1
     puts "I love my #{year} #{model}. It is a #{make}"
   end
 
