@@ -9,6 +9,10 @@ class Cars
     puts "I love my #{year} #{model}. It is a #{make}"
   end
 
+  def self.cars_count
+    @@cars_count
+  end
+  
 end
 
 toyota = Cars.new("Camry", "Toyota", "1997")
