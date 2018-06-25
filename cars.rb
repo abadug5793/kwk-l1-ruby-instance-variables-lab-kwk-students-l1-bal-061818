@@ -7,7 +7,7 @@ class Cars
     puts "I love my #{year} #{model}. It is a #{make}"
   end
 
-  def stereo=(car_stereo)          #setting 
+  def stereo=(car_stereo)          #setting
     @stereo = car_stereo
   end
 
@@ -18,7 +18,7 @@ class Cars
   def cam=(backup_cam)
     @cam = backup_cam
   end
-  
+
   def cam
     @cam
   end
@@ -27,3 +27,4 @@ end
 
 toyota = Cars.new("Camry", "Toyota", "1997")
 prius = Cars.new("Prius", "Toyota", "2011")
+prius.stereo
