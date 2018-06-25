@@ -1,4 +1,5 @@
 class Cars
+  attr_accessor                 #attribute accessor
 
   def initialize(model, make, year)
     @model = model
